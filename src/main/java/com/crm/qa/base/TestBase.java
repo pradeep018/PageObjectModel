@@ -22,7 +22,9 @@ public class TestBase {
 	public static Properties prop;
 	public  static EventFiringWebDriver e_driver;
 	public static WebEventListener eventListener;
-	
+	public void add(){
+		system.out.println("ADD method")
+	}
 	public TestBase(){
 		try {
 			prop = new Properties();
